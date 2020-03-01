@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      #navbar{
+        float: left;
+        visibility: visible;
+      }
+
+      @media screen  and (max-width: 600px){
+          body{
+            background-color: green;
+          }
+      }
+    </style>
   </head>
 
   <body>
@@ -23,7 +35,14 @@
     -->
     <p>Hello World, we are software developers</p>
     <main id="main-doc">
-
+      <nav id="navbar">
+        <header>This is about programming languages</header>
+        <a class="nav-link" href="#Php">Php</a>
+        <a class="nav-link" href="#Java">Java</a>
+        <a class="nav-link" href="#Javascript">Javascript</a>
+        <a class="nav-link" href="#Ruby">Ruby</a>
+        <a class="nav-link" href="#Python">Python</a>
+      </nav>
       <section class="main-section" id="Php">
         <header>Php</header>
         <p>I work with php</p>
@@ -74,7 +93,7 @@
         <code>We code</code>
         
       </section>
-      
+    
     </main>
     <script  src="js/index.js"></script>
   </body>
